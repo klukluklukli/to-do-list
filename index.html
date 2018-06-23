@@ -8,7 +8,38 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <form action="" id="form">
 
+      <input type="text" id="titulo" placeholder="Título">
+      <input type="text" id="descripcion" placeholder="Descripción">
+
+      <div class="rad">
+        Alta
+        <input type="radio" name="importante" value="Alta" checked>
+        <label></label>
+      </div>
+
+      <div class="rad">
+        Media
+        <input type="radio" name="importante" value="Media">
+        <label></label>
+      </div>
+
+      <div class="rad">
+        Baja
+        <input type="radio" name="importante" value="Baja">
+        <label></label>
+      </div>
+
+      <div class="check">
+        Tarea terminada
+        <input type="checkbox" id="terminada">
+        <label> </label>
+      </div>
+
+      <button type="button" id="button">Nueva tarea</button>
+
+    </form>
     <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
